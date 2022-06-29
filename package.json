@@ -1,0 +1,17 @@
+{
+  "name": "daemon-camera-raspberry-pi",
+  "version": "1.0.0",
+  "description": "Set up video surveillance from the nursery",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raphaël Philippart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "raspberry-pi-camera-native": "^0.0.0"
+  }
+}
