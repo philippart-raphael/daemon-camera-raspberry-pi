@@ -62,9 +62,9 @@ app.get('/list', (req, res) => {
 
     while((entity = dir.readSync()) !== null) {
         if(entity.isFile()) {
-            listing.push({ type: 'File:', name: entity.name, link: 'http://192.168.1.151:8181/get/' + entity.name })
+            listing.push({ type: 'File', name: entity.name, link: 'http://192.168.1.151:8181/get/' + entity.name })
         } else if(entity.isDirectory()) {
-            listing.push({ type: 'Folder:', name: entity.name })
+            listing.push({ type: 'Folder', name: entity.name })
         }
     }
     dir.closeSync()
