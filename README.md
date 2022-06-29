@@ -1,7 +1,7 @@
 # Daemon Camera Raspberry-Pi
 
-Set up video surveillance from the nursery
-Road map : Add OpenCV object detection
+Set up video surveillance from the nursery<br>
+Road map :<br>- Add OpenCV object detection
 
 
 ## Dependencies
